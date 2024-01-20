@@ -1,0 +1,28 @@
+body{
+    background-color: #c54d4d;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-color: #c54d4d;
+}
+
+.gallery {
+    columns: 5 320px;
+    column-gap: 0.5em;
+    margin: 0;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gallery .img {
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    outline: 2px solid rgb(167, 22, 22)
+    outline-offset: -10px;
+}
+
