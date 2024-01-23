@@ -1,28 +1,125 @@
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 15px ;
+  }
+  
+
+
+
+
+
 body{
-    background-color: #c54d4d;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
 }
 
-.container1 {
-    background-color: #c54d4d;
+header nav .nav-section{
+    width: 250;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+nav .nav-section .menu-icon{
+    background-image: url(https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c52e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
 }
 
-.gallery {
-    columns: 5 320px;
-    column-gap: 0.5em;
-    margin: 0;
-    width: 80vw;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+nav .nav-section .campanita{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Do_nzlkkM8CuaWBamVa8Fx5NQVYOh70kvUVW2_oA2JnnuSFLJm4PsFgRojV2yV8uH3E&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;    
 }
 
-.gallery .img {
-    max-width: 100%;
-    margin-bottom: 0.5em;
-    display: block;
-    outline: 2px solid rgb(167, 22, 22)
-    outline-offset: -10px;
+nav .nav-section .sms{
+    background-image: url(https://img1.freepng.es/20180513/baw/kisspng-computer-icons-online-chat-chat-room-bubble-speech-5af8e9b4aac803.7544474815262621966995.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;    
+}
+nav .nav-section .profile{
+    background-image: url(https://i.etsystatic.com/37409968/r/il/e7f841/4910799591/il_fullxfull.4910799591_2v7l.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;    
+}
+nav .nav-section a{
+    margin-right: 12px;
+    color: black; 
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 40px;    
+    height: 40px;
+}
+main .main-logo{
+    width: 530;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.main-container{
+    width: 1115px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid rgb(33, 25, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+,.main-container .class-icon{
+    width: 1115px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: rgb(213, 133, 28);
 }
 
+
+
+
+  section img {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .image-converter{
+      width: 250px;
+      height: 500px;
+  
+  }
