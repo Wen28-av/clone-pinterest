@@ -33,9 +33,10 @@ nav .nav-section .menu-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
+    margin-right: 18px;
 }
 
 nav .nav-section .campanita{
@@ -45,7 +46,8 @@ nav .nav-section .campanita{
     background-size: contain;
     width: 28px;
     height: 28px;
-    cursor: pointer;    
+    cursor: pointer;
+    margin-right: 18px;    
 }
 
 nav .nav-section .sms{
@@ -55,7 +57,8 @@ nav .nav-section .sms{
     background-size: contain;
     width: 28px;
     height: 28px;
-    cursor: pointer;    
+    cursor: pointer;
+    margin-right: 18px;
 }
 nav .nav-section .profile{
     background-image: url(https://i.etsystatic.com/37409968/r/il/e7f841/4910799591/il_fullxfull.4910799591_2v7l.jpg);
@@ -64,15 +67,19 @@ nav .nav-section .profile{
     background-size: contain;
     width: 28px;
     height: 28px;
-    cursor: pointer;    
+    cursor: pointer;
+    margin-right: 18px;    
 }
 nav .nav-section a{
-    margin-right: 12px;
-    color: black; 
+    margin-right: 18px;
+    color: black;
+
 }
 a{
-    text-decoration: none;
+    text-decoration: rgb(41, 40, 39);
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 nav .nav-right-section img{
     border-radius: 50%;
@@ -85,25 +92,37 @@ main .main-logo{
     margin: auto;
     margin-bottom: 35px;
 }
-.main-container{
-    width: 1115px;
+.input-container{
+    width: 1030px;
     height: 40px;
     border-radius: 100px;
     border: 1px solid rgb(33, 25, 34);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 18px;
 }
-,.main-container .class-icon{
+
+/*
+.main-container .class-icon{
     width: 1115px;
     height: 40px;
     border: none;
     outline: none;
     color: rgb(213, 133, 28);
 }
+*/
 
 
 
+.main-input-container .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
 
   section img {
     width: 250px;
@@ -121,5 +140,4 @@ main .main-logo{
   .image-converter{
       width: 250px;
       height: 500px;
-  
   }
